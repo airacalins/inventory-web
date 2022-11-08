@@ -1,8 +1,10 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import PrimaryButton from '../components/buttons/PrimaryButton';
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <PrimaryButton label={'Hello'} />
   );
 }
 
