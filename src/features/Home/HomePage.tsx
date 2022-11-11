@@ -1,5 +1,5 @@
-import SideNav from "../../app/components/SideNav/SideNav";
-import Header1 from "../../app/components/Text/Header1";
+import SideNav from "../../App/Components/SideNav/SideNav";
+import Header1 from "../../App/Components/Text/Header1";
 
 function HomePage() {
     return <div className='d-flex'>
