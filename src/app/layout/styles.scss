@@ -8,20 +8,26 @@ $grey-40: #505050;
 $grey-50: #252525;
 
 
-button {
-    &.btn {
-        &.btn-primary {
-            &.primary {
-                background-color: #E85B81 !important;
-            }
-        }
-
-        &.btn-secondary {
-            &.secondary {
-                background-color: $secondary;
-            }
-        }
-
-        border: none;
+button.btn.btn-primary {
+    &.btn__color-primary {
+        background-color: $primary;
     }
+
+    &.btn__color-secondary {
+        background-color: $secondary;
+    }
+
+    border: none;
+}
+
+.header {
+    &.header__1 {
+        font-size: 50px;
+    }
+
+    &.header__2 {
+        font-size: 38px;
+    }
+
+    color: $grey-50;
 }

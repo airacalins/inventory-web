@@ -1,13 +1,17 @@
-import { Button } from "react-bootstrap";
+import Button from "./Button";
 
 interface Props {
-    label: String;
+    label: string;
+    onClick: () => void;
 }
 
 function PrimaryButton({ label }: Props) {
-    return <Button className="primary">
-        {label}
-    </Button>
+    return <Button
+        label={label}
+        className="btn__color-primary"
+        onClick={() => { }}
+    />
+
 }
 
 export default PrimaryButton;
