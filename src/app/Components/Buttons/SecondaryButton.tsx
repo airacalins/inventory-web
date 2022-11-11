@@ -2,15 +2,15 @@ import Button from "./Button";
 
 interface Props {
     label: string;
+    className?: string;
     onClick: () => void;
 }
-
-function SecondayButton({ label, onClick }: Props) {
+function SecondaryButton({ label, className }: Props) {
     return <Button
         label={label}
-        className="btn__color-secondary"
-        onClick={onClick}
+        className={`btn__secondary ${className ? className : ''}`}
+        onClick={() => { }}
     />
 }
 
-export default SecondayButton;
+export default SecondaryButton;

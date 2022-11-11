@@ -1,3 +1,6 @@
+import AlternativeButton from "../../app/Components/Buttons/AlternativeButton";
+import PrimaryButton from "../../app/Components/Buttons/PrimaryButton";
+import SecondaryButton from "../../app/Components/Buttons/SecondaryButton";
 import SideNav from "../../app/Components/SideNav/SideNav";
 import Header1 from "../../app/Components/Text/Header1";
 
@@ -9,6 +12,9 @@ function HomePage() {
 
         <div>
             <Header1 text={'hi'} />
+            <PrimaryButton label="hi" className="disabled" onClick={() => { }} />
+            <AlternativeButton label="hi" className="disabled" onClick={() => { }} />
+            <SecondaryButton label="hi" className="disabled" onClick={() => { }} />
         </div>
     </div>
 }

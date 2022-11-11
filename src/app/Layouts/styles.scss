@@ -1,24 +1,74 @@
 $primary: #E85B81;
-$secondary: #5E48E8;
+$primaryButtonHover: #C1305D;
+$primaryButtonDisabled: #F3ADBF;
+$alternative: #5E48E8;
+$alternativeButtonHover: #5028C6;
+$alternativeButtonDisabled: #B5B5B5;
+$secondary: #B5B5B5;
+$secondaryButtonHover: #252525;
+$secondaryButtonDisabled: #B5B5B5;
 $ternary: #8CE0F3;
+$white: #FFFFFF;
 $grey-1: #F9F9F9;
 $grey-2: #E1E1E1;
-$grey-3: #B4B4B4;
+$grey-3: #B5B5B5;
 $grey-4: #505050;
 $grey-5: #252525;
 
 
 button.btn.btn-primary {
-    &.btn__color-primary {
+    &.btn__primary {
         background-color: $primary;
+        border: none;
+
+        &.disabled {
+            background-color: $primaryButtonDisabled;
+            border: none;
+        }
     }
 
-    &.btn__color-secondary {
-        background-color: $secondary;
+    &.btn__primary:hover {
+        background: $primaryButtonHover;
+        border: none;
     }
 
-    border: none;
+    &.btn__alternative {
+        background-color: $alternative;
+        border: none;
+
+        &.disabled {
+            opacity: 0.3;
+            border: 1px solid $alternativeButtonDisabled;
+        }
+    }
+
+    &.btn__alternative:hover {
+        background: $alternativeButtonHover;
+        border: none;
+    }
+
+    &.btn__secondary {
+        border: 1px solid $secondary;
+        background-color: $white;
+        color: $grey-5;
+
+        &.disabled {
+            border: 1px solid $secondaryButtonDisabled;
+            background-color: $white;
+            color: $secondaryButtonDisabled;
+        }
+    }
+
+    &.btn__secondary:hover {
+        border: 1px solid $secondaryButtonHover;
+    }
+
+
+
+    border-radius: 8px;
+    padding: 15px 60px;
 }
+
 
 .text {
     &.font__weight-500 {
@@ -67,4 +117,5 @@ button.btn.btn-primary {
     &.size__width-5 {
         width: 5%;
     }
+
 }
