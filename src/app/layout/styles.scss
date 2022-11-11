@@ -1,11 +1,11 @@
 $primary: #E85B81;
 $secondary: #5E48E8;
 $ternary: #8CE0F3;
-$grey-10: #F9F9F9;
-$grey-20: #E1E1E1;
-$grey-30: #B4B4B4;
-$grey-40: #505050;
-$grey-50: #252525;
+$grey-1: #F9F9F9;
+$grey-2: #E1E1E1;
+$grey-3: #B4B4B4;
+$grey-4: #505050;
+$grey-5: #252525;
 
 
 button.btn.btn-primary {
@@ -60,5 +60,11 @@ button.btn.btn-primary {
         font-weight: 400;
     }
 
-    color: $grey-50;
+    color: $grey-5;
+}
+
+.size {
+    &.size__width-5 {
+        width: 5%;
+    }
 }
