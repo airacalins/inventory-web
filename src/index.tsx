@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './App/Layouts/styles.css';
-import './App/Layouts/styles.scss';
-import App from './App/Layouts/App';
+import './app/Layouts/styles.css';
+import './app/Layouts/styles.scss';
+import App from './app/Layouts/App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
