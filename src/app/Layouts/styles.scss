@@ -114,8 +114,22 @@ button.btn.btn-primary {
 }
 
 .size {
-    &.size__width-5 {
-        width: 5%;
+    &__width {
+        // pixels
+        &--110px {
+            width: 110px;
+        }
+        // percentage
+        &--7 {
+            width: 7%;
+        }
+    }
+
+    &__height{
+        // pixels
+        &--110px {
+            height: 110px
+        }
     }
 
 }
