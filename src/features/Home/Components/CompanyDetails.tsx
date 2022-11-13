@@ -20,7 +20,7 @@ function CompanyDetails({ imageUrl, productQuantity, employeeQuantity } : Props)
                 <div className="d-flex align-items-center">
                     <Paragraph text={productQuantity.toString()}/>
                     <HorizontalSpace width={2} />
-                    <Header5 text="Products" />
+                    <Header5 text="Products"/>
                 </div>
                 <HorizontalSpace width={3} />
                 <div className="d-flex align-items-center">

@@ -1,5 +1,6 @@
 import { Tab, Tabs } from "react-bootstrap";
 import AlternativeButton from "../../app/Components/Buttons/AlternativeButton";
+import IconButton from "../../app/Components/Buttons/IconButton";
 import PrimaryButton from "../../app/Components/Buttons/PrimaryButton";
 import SecondaryButton from "../../app/Components/Buttons/SecondaryButton";
 import SideNav from "../../app/Components/SideNav/SideNav";
