@@ -12,11 +12,11 @@ function Tab({ title, isActive }: Props) {
     return <>
         <Nav.Link href="">
             <Paragraph text={title} className={isActive ? null : "color__grey-3"} />
-            <VerticalSpace spacer={2} />
+            <VerticalSpace height={2} />
             {isActive && <div className='tab__primary-active'></div>}
         </Nav.Link>
 
-        <HorizontalSpace spacer={6} />
+        <HorizontalSpace width={6} />
     </>
 }
 
