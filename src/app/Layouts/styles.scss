@@ -84,6 +84,60 @@ button.btn.btn-primary.btn {
     }
 }
 
+.size {
+    &__height {
+        &--1 {
+            height: 10px;
+        }
+
+        &--2 {
+            height: 20px;
+        }
+
+        &--3 {
+            height: 30px;
+        }
+
+        &--4 {
+            height: 40px;
+        }
+
+        &--5 {
+            height: 50px;
+        }
+
+        &--10 {
+            height: 100px;
+        }
+    }
+
+    &__width {
+        &--1 {
+            width: 10px;
+        }
+
+        &--2 {
+            width: 20px;
+        }
+
+        &--3 {
+            width: 30px;
+        }
+
+        &--4 {
+            width: 40px;
+        }
+
+        &--5 {
+            width: 50px;
+        }
+
+        &--10 {
+            width: 100px;
+        }
+    }
+}
+
 .space {
     &__horizontal {
         &--1 {
