@@ -5,7 +5,7 @@ interface Props {
 }
 
 function Small({ text }: Props) {
-    return <p className="text text__paragraph-small font__weight-400">{text}</p >
+    return <p className="text__paragraph-small font__weight-400">{text}</p >
 }
 
 export default Small;

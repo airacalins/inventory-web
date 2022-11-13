@@ -70,48 +70,65 @@ button.btn.btn-primary.btn {
     padding: 15px 60px;
 }
 
+.color__grey-3 {
+    color: $grey-3;
+}
+
 .font__weight {
     &--500 {
         font-weight: 500;
     }
+
     &--400 {
         font-weight: 400;
     }
 }
 
 .space {
-    &__horizontal{
-        &--1{
+    &__horizontal {
+        &--1 {
             width: 2px;
         }
-        &--2{
+
+        &--2 {
             width: 4px;
         }
-        &--3{
+
+        &--3 {
             width: 8px;
         }
-        &--4{
+
+        &--4 {
             width: 16px;
         }
-        &--5{
+
+        &--5 {
             width: 32px;
+        }
+
+        &--6 {
+            width: 64px;
         }
     }
 
     &__vertical {
-        &--1{
+        &--1 {
             height: 2px;
         }
-        &--2{
+
+        &--2 {
             height: 4px;
         }
-        &--3{
+
+        &--3 {
             height: 8px;
         }
-        &--4{
+
+        &--4 {
             height: 16px;
         }
-        &--5{
+
+        &--5 {
             height: 32px;
         }
     }
@@ -155,4 +172,10 @@ button.btn.btn-primary.btn {
 
     color: $grey-5;
     margin: 0;
+}
+
+.tab__primary-active {
+    height: 4px;
+    width: 100%;
+    background-color: $primary;
 }
