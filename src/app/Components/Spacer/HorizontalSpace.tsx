@@ -1,9 +1,9 @@
 interface Props {
-    spacer: number,
+    width: 1 | 2 | 3 | 4 | 5,
 }
 
-function HorizontalSpace({ spacer } : Props){
-    return <div className={`space__horizontal--${spacer}`}></div>
+function HorizontalSpace({ width } : Props){
+    return <div className={`space__horizontal--${width}`}></div>
 }
 
 export default HorizontalSpace;

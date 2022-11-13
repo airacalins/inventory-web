@@ -4,7 +4,7 @@ interface Props {
 }
 
 function Paragraph({ text, className }: Props) {
-    return <p className="text text__paragraph-default font__weight-400">{text}</p >
+    return <p className="text text__paragraph--default font__weight--400">{text}</p >
 }
 
 export default Paragraph;

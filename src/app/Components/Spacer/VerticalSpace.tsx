@@ -1,9 +1,9 @@
 interface Props {
-    spacer: number,
+    height: number,
 }
 
-function VerticalSpace({ spacer } : Props){
-    return <div className={`space__vertical--${spacer}`}></div>
+function VerticalSpace({ height } : Props){
+    return <div className={`space__vertical--${height}`}></div>
 }
 
 export default VerticalSpace;
