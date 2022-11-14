@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Badge, Table } from "react-bootstrap";
-import HorizontalSpace from "../../app/Components/Spacer/HorizontalSpace";
-import Header5 from "../../app/Components/Text/Header5";
-import Paragraph from "../../app/Components/Text/Paragraph";
-import { IProduct } from "../../app/Interfaces/IProduct";
+import HorizontalSpace from "../../app/componets/Spacer/HorizontalSpace";
+import Header5 from "../../app/componets/Text/Header5";
+import Paragraph from "../../app/componets/Text/Paragraph";
+import { IProduct } from "../../app/interfaces/IProduct";
 
 function ProductTable() {
   const [products, setProducts] = useState<IProduct[]>(

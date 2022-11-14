@@ -1,10 +1,10 @@
 import { Tab, Tabs } from "react-bootstrap";
-import AlternativeButton from "../../app/Components/Buttons/AlternativeButton";
-import IconButton from "../../app/Components/Buttons/IconButton";
-import PrimaryButton from "../../app/Components/Buttons/PrimaryButton";
-import SecondaryButton from "../../app/Components/Buttons/SecondaryButton";
-import SideNav from "../../app/Components/SideNav/SideNav";
-import Header1 from "../../app/Components/Text/Header1";
+import AlternativeButton from "../../app/componets/Buttons/AlternativeButton";
+import IconButton from "../../app/componets/Buttons/IconButton";
+import PrimaryButton from "../../app/componets/Buttons/PrimaryButton";
+import SecondaryButton from "../../app/componets/Buttons/SecondaryButton";
+import SideNav from "../../app/componets/SideNav/SideNav";
+import Header1 from "../../app/componets/Text/Header1";
 
 function HomePage() {
     return <div className='d-flex'>
